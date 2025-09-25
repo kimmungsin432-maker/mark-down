@@ -7,3 +7,6 @@ docker run -d `
   -e MYSQL_ROOT_PASSWORD=123456 `
   -p 23306:3306 `
   mysql:8.0
+
+
+GRANT ALL PRIVILEGES ON mysql.* TO 'testuser'@'%';
