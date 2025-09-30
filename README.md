@@ -45,3 +45,24 @@ valuse ('2997','품질 좋은 드론 팝니다.');
 
 insert into product (product_id)
 values ('학생')
+
+
+create trigger tr_ins_productalter 
+begin
+	insert product...
+end
+
+SHOW Triggers like 'produst';
+
+drop TRUGGER tr_product_ins
+
+create database zoo;
+use zoo;
+create table eagle(ete varchar(200));
+show tables;
+select *  from eagle;
+insert into eagle(eye) values('독수리눈');
+delete from eagle;
+drop table eagle;
+drop database zoo;
+show databases;
