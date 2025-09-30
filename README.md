@@ -11,7 +11,7 @@ docker run -d `
 
 GRANT ALL PRIVILEGES ON mysql.* TO 'testuser'@'%';
 
-database
+database 예시
 -- update product set product_id = concat('A00',dummy)
 -- where product_id like concat('A00',dummy)
 
