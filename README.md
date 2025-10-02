@@ -66,3 +66,19 @@ delete from eagle;
 drop table eagle;
 drop database zoo;
 show databases;
+
+
+
+GRANT CREATE SESSION, CREATE TABLE TO test001;
+GRANT SELET, INSERT, UPDATE, DELETE ON *.* tablel TO  test001;
+GRANT SELET, INSERT, UPDATE, DELETE ON user TO  test001;
+
+USERS
+key USERS_ID
+USER_NAME
+insert into users(user_id, user_name) valuse('a001','한글');
+selet * from users
+
+create customers( test varchar(200))
+
+insert into customer (test) valuse('ejksjejej');
